@@ -42,6 +42,23 @@
 		"sI": 0,
 		"sU": 0
 		},
+	"/_build/css/inter.less": {
+		"aP": 0,
+		"bl": 0,
+		"eJ": 0,
+		"ft": 1,
+		"ie": 0,
+		"iI": 0,
+		"ma": 1,
+		"mS": 0,
+		"oA": 1,
+		"oAP": "/_build/css/inter.css",
+		"oF": 0,
+		"oS": 0,
+		"rwU": 0,
+		"sI": 0,
+		"sU": 0
+		},
 	"/_build/css/normalize.less": {
 		"aP": 0,
 		"bl": 0,
@@ -102,12 +119,357 @@
 		"oAP": "/css/style.css.map",
 		"oF": 0
 		},
+	"/fonts/Inter-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Black.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Black.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-BlackItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-BlackItalic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-BlackItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-BlackItalic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Bold.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Bold.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-BoldItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-BoldItalic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-BoldItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-BoldItalic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraBold.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraBold.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraBoldItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraBoldItalic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraBoldItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraBoldItalic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraLight-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraLight-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraLight-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraLight-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraLightItalic-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraLightItalic-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-ExtraLightItalic-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ExtraLightItalic-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-italic.var.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-italic.var.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Italic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Italic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Italic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Italic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Light-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Light-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Light-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Light-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-LightItalic-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-LightItalic-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-LightItalic-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-LightItalic-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Medium.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Medium.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-MediumItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-MediumItalic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-MediumItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-MediumItalic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Regular.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Regular.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-SemiBold.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-SemiBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-SemiBold.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-SemiBoldItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-SemiBoldItalic.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-SemiBoldItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-SemiBoldItalic.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-Thin-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Thin-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-Thin-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-Thin-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-ThinItalic-BETA.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ThinItalic-BETA.woff",
+		"oF": 0
+		},
+	"/fonts/Inter-ThinItalic-BETA.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-ThinItalic-BETA.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter-upright.var.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter-upright.var.woff2",
+		"oF": 0
+		},
+	"/fonts/Inter.var.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/Inter.var.woff2",
+		"oF": 0
+		},
+	"/images/example_1.png": {
+		"ft": 32768,
+		"iS": 3505246,
+		"oA": 0,
+		"oAP": "/images/example_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/example_2.png": {
+		"ft": 32768,
+		"iS": 37852265,
+		"oA": 1,
+		"oAP": "/images/example_2.png",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/example_3.png": {
+		"ft": 32768,
+		"iS": 38050115,
+		"oA": 1,
+		"oAP": "/images/example_3.png",
+		"oF": 1,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/favicon.png": {
 		"ft": 32768,
 		"iS": 26693,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/images/favicon.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
