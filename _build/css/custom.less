@@ -17,28 +17,17 @@ html {
     font-feature-settings: 'zero' 1, 'ss01' 1;
   }
 }
-
 header {
-  position: sticky;
-  top: 0;
   padding: 60px 0;
-  .offset {
-    position: absolute;
-    left: -88px;
-    width: 201px;
-    .scrolled .wordmark {
-      opacity: 0;
-    }
-  }
 }
 .wordmark,
-.nav-links {
+.nav-links li {
   transition: 750ms opacity cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .intro {
-  padding: 14rem 0;
-  h1 {
-    font-weight: 600;
+  padding: 7rem 0 0 0;
+  + .intro {
+    padding: 0 0 7rem 0;
   }
 }
 .price {
@@ -60,12 +49,8 @@ header {
   margin: 5px 0 0 0;
   padding: 0;
   text-transform: uppercase;
-  text-align: right;
   font-size: 1.2rem;
   list-style: none;
-  li {
-    opacity: 0;
-  }
   a {
     color: @black;
     font-weight: 500;
@@ -74,23 +59,16 @@ header {
   }
 }
 
-.nav-link__1,
-.nav-link__2,
-.nav-link__3 {
-  opacity: 0;
+.jumbo {
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 0;
+  line-height: 5rem;
 }
-
-.scrolled {
-  &.nav-link__1 {
-    animation-delay: 1s;
-    animation-name: fadeInUp;
-  }
-  &.nav-link__2 {
-    animation-delay: 2s;
-    animation-name: fadeInUp;
-  }
-  &.nav-link__3 {
-    animation-delay: 3s;
-    animation-name: fadeInUp;
-  }
+.jumbo-label {
+  font-size: 2rem;
+}
+.jumbo,
+.jumbo-label {
+  text-align: right;
 }
