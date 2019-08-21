@@ -5,10 +5,10 @@ window.onscroll = function() {
 // Hide word part of logo on scroll
 function hideWordMark() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-    $("#navLink1, #navLink2, #navLink3").addClass("scrolled");
+    $("#navLink1, #navLink2, #navLink3").addClass("fadeInUp");
     $("#wordmark").addClass("fadeOutUp");
   } else {
-    $("#navLink1, #navLink2, #navLink3").removeClass("scrolled");
+    $("#navLink1, #navLink2, #navLink3").removeClass("fadeInUp");
     $("#wordmark").removeClass("fadeOutUp");
   }
 }
