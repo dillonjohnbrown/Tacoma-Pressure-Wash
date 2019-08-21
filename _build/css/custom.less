@@ -80,12 +80,14 @@ header {
 }
 .more-than-tacoma {
   position: relative;
+  min-height: 100vh; // I don't trust this
   svg {
     position: absolute;
     z-index: -1;
     margin: 25rem 0;
     path {
       display: none;
+      opacity: 0.1;
     }
   }
 }
