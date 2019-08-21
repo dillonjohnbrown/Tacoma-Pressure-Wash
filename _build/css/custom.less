@@ -27,19 +27,40 @@ html {
     padding: 0 0 7rem 0;
   }
 }
-.price {
-  background-color: @red;
-  text-align: center;
-  color: white;
-  font-feature-settings: 'zero' 1, 'ss01' 1;
+.price-background {
+  background-color: @black;
   padding: 8rem 0;
-  font-size: 8rem;
+}
+.price-detail {
+  background-color: @off-white;
+  color: @black;
+  padding: 2rem;
+}
+.price-label {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  position: relative;
+  max-width: 15rem;
+  &:after {
+    content: "";
+    background: @red;
+    position: absolute;
+    bottom: -1rem;
+    left: 0;
+    width: 15rem;
+    height: 2px;
+  }
+}
+.price {
   font-style: italic;
   font-weight: 900;
-  font-kerning: auto;
-  p {
-    margin: 0;
-  }
+  font-size: 7rem;
+  text-align: center;
+  margin: 5rem 0;
+}
+.price-note {
+  font-size: 1.25rem;
+  font-style: oblique;
 }
 header {
   padding: 60px 0;
