@@ -42,32 +42,10 @@ html {
   }
 }
 header {
-  position: sticky;
-  top: 0;
   padding: 60px 0;
 }
 
 
-.nav-links {
-  margin: 5px 0 0 0;
-  padding: 0;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  list-style: none;
-  text-align: right;
-  a {
-    color: @black;
-    font-weight: 500;
-    border-bottom: 0.5px solid @red;
-    text-decoration: none;
-  }
-}
-.nav-link__1,
-.nav-link__2,
-.nav-link__3 {
-  opacity: 0;
-  transition: 750ms all cubic-bezier(0.165, 0.84, 0.44, 1);
-}
 .wordmark {
   transition: 750ms opacity cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -84,4 +62,13 @@ header {
 .jumbo,
 .jumbo-label {
   text-align: right;
+}
+
+.nav-links {
+  display: none;
+}
+.logo-and-nav {
+  svg {
+    width: 5rem;
+  }
 }

@@ -3,6 +3,7 @@ window.onscroll = function() {
 };
 
 // Hide word part of logo on scroll
+// Show nav links on scroll
 function hideWordMark() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     $("#navLink1, #navLink2, #navLink3").addClass("fadeInUp");
