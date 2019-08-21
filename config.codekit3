@@ -25,35 +25,25 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/_build/assets/_logo-and-wordmark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "/_build/assets/_logo-and-wordmark.svg",
-		"oF": 1,
-		"opt": 1,
-		"plM": 52797496098815,
-		"prP": 1
-		},
 	"/_build/assets/_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/_build/assets/_logo.svg",
 		"oF": 1,
 		"opt": 1,
-		"plM": 52797496098783,
+		"plM": 52797496090623,
 		"prP": 1
 		},
-	"/_build/assets/Artboard Copy 3.svg": {
+	"/_build/assets/_wordmark.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
-		"oAP": "/_build/assets/Artboard Copy 3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"oA": 0,
+		"oAP": "/_build/assets/_wordmark.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 52797496090591,
+		"prP": 1
 		},
 	"/_build/css/animations.less": {
 		"aP": 0,
