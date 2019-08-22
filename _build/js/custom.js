@@ -13,20 +13,29 @@ var cities = [
 ];
 var animationTime = 1500;
 
+$(function() {
+  wordmarkHack();
+});
 window.onscroll = function() {
-  hideWordMark();
+  hideNav();
   map();
 };
+window.onresize = function() {
+  wordmarkHack();
+};
+
 
 // Hide word part of logo on scroll
 // Show nav links on scroll
-function hideWordMark() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+function hideNav() {
+  var wordmarkBackground = $("#wordmarkBackground").outerHeight();
+
+  if (document.body.scrollTop > wordmarkBackground || document.documentElement.scrollTop > wordmarkBackground) {
+    // Show nav after scroll
     $("#navLink1, #navLink2, #navLink3").addClass("fadeInUp");
-    $("#wordmark").addClass("fadeOutUp");
   } else {
+    // Hide nav
     $("#navLink1, #navLink2, #navLink3").removeClass("fadeInUp");
-    $("#wordmark").removeClass("fadeOutUp");
   }
 }
 
@@ -48,4 +57,12 @@ function map() {
           $(this).delay(animationTime * index).fadeIn(animationTime);
         });
     }
+}
+
+function wordmarkHack() {
+  if ($(window).width() > 550) {
+    var headerHeight = $("header").outerHeight();
+
+    $("#wordmarkBackground, #wordmarkBackground ~ div").css({top: -headerHeight});
+  }
 }

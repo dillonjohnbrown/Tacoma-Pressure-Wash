@@ -1,7 +1,11 @@
-@black:     #3A3A3A;
-@red:       #E3170A;
+@black:     #202034;
+@red:       #fb431e;
 @off-white: #DAE5E3;
 @white:     #ffffff;
+
+//red
+//firefox rgb(248, 69, 44)
+//safari #fb431e
 
 @import "normalize.less";
 @import "inter.less";
@@ -63,13 +67,11 @@ html {
   font-size: 1.25rem;
   font-style: oblique;
 }
-header {
-  padding: 60px 0;
+.wordmark-background {
+  background-color: @red;
 }
-
-
 .wordmark {
-  transition: 750ms opacity cubic-bezier(0.165, 0.84, 0.44, 1);
+  padding: 60px 0;
 }
 
 .jumbo {
@@ -90,6 +92,9 @@ header {
   display: none;
 }
 .logo-and-nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
   svg {
     width: 5rem;
   }
@@ -112,4 +117,7 @@ header {
       opacity: 0.1;
     }
   }
+}
+header {
+  background: @red;
 }

@@ -6,13 +6,19 @@
 /* Larger than phablet */
 @media (min-width: 550px) {
   header {
+    display: block;
     position: sticky;
-    top: 0;
+    top: 60px;
     z-index: 2;
     pointer-events: none;
+    background: none !important;
   }
-  .logo-and-nav svg {
-    width: revert !important;
+  .logo-and-nav {
+    display: block !important;
+    padding: 0;
+    svg {
+      width: revert !important;
+    }
   }
   .nav-links {
     pointer-events: visible;
@@ -46,6 +52,16 @@
   .fadeOutUp {
     animation-name: fadeOutUp;
   }
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  .wordmark-background {
+    &,
+    ~ div {
+      position: relative;
+    }
+  }
+
 }
 
 /* Larger than tablet */
