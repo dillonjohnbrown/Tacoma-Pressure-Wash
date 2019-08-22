@@ -28,14 +28,13 @@ window.onresize = function() {
 // Hide word part of logo on scroll
 // Show nav links on scroll
 function hideNav() {
-  var wordmarkBackground = $("#wordmarkBackground").outerHeight();
+  var wordmarkBackground  = $("#wordmarkBackground").outerHeight();
+  var logoHeight          = $("#navLogo").outerHeight();
+  var showNavHeight = wordmarkBackground - logoHeight;
 
-  if (document.body.scrollTop > wordmarkBackground || document.documentElement.scrollTop > wordmarkBackground) {
+  if (document.body.scrollTop > showNavHeight || document.documentElement.scrollTop > showNavHeight) {
     // Show nav after scroll
     $("#navLink1, #navLink2, #navLink3").addClass("fadeInUp");
-  } else {
-    // Hide nav
-    $("#navLink1, #navLink2, #navLink3").removeClass("fadeInUp");
   }
 }
 
