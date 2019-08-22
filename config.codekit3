@@ -535,6 +535,28 @@
 		"oAP": "/fonts/Inter.var.woff2",
 		"oF": 0
 		},
+	"/images/competition_1.png": {
+		"ft": 32768,
+		"iS": 146500,
+		"oA": 0,
+		"oAP": "/images/competition_1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/competition_2.png": {
+		"ft": 32768,
+		"iS": 148479,
+		"oA": 0,
+		"oAP": "/images/competition_2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/example_1.png": {
 		"ft": 32768,
 		"iS": 3505246,
