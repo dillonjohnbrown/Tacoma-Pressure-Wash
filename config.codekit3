@@ -195,6 +195,16 @@
 		"oAP": "/_config.yml",
 		"oF": 0
 		},
+	"/css/style 3.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style 3-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
