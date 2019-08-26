@@ -587,6 +587,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/touch-icon.png": {
+		"ft": 32768,
+		"iS": 25876,
+		"oA": 0,
+		"oAP": "/images/touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
