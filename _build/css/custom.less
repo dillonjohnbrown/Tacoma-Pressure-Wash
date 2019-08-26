@@ -1,9 +1,11 @@
-@black:       #202034;
-@red:         #fb431e;
-@turquoise:   #9bbdb8;
-@off-white:   #DAE5E3;
-@white:       #FFFFFF;
-@light-pink:  #EFCDC7; // unused except in _wordmark.svg
+@black:         #202034;
+@light-black:   fade( @black, 60% );
+@x-light-black: fade( @black, 25% );
+@red:           #fb431e;
+@turquoise:     #9bbdb8;
+@off-white:     #DAE5E3;
+@white:         #FFFFFF;
+@light-pink:    #EFCDC7; // unused except in _wordmark.svg
 
 //red
 //firefox rgb(248, 69, 44)
@@ -26,7 +28,9 @@ html {
     font-feature-settings: 'zero' 1, 'ss01' 1;
   }
 }
-
+.x-light-black {
+  color: @x-light-black;
+}
 .intro {
   padding: 7rem 0 0 0;
   + .intro {
@@ -107,7 +111,7 @@ a {
   text-decoration: none;
   transition: all 750ms;
   &:hover {
-    color: fade( @black, 60% );
+    color: @light-black;
   }
 }
 .city-list {
