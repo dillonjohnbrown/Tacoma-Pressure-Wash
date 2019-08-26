@@ -195,6 +195,14 @@
 		"oAP": "/_config.yml",
 		"oF": 0
 		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/style 3.css": {
 		"aP": 1,
 		"bl": 0,
@@ -534,28 +542,6 @@
 		"oA": 0,
 		"oAP": "/fonts/Inter.var.woff2",
 		"oF": 0
-		},
-	"/images/competition_1.png": {
-		"ft": 32768,
-		"iS": 146500,
-		"oA": 0,
-		"oAP": "/images/competition_1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/competition_2.png": {
-		"ft": 32768,
-		"iS": 148479,
-		"oA": 0,
-		"oAP": "/images/competition_2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"/images/example_1.png": {
 		"ft": 32768,
