@@ -624,14 +624,6 @@
 		"oA": 0,
 		"oAP": "/js/scripts-min.js.map",
 		"oF": 0
-		},
-	"/video/video-background.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/video/video-background.mp4",
-		"oF": 0
 		}
 	},
 "hooks": [
