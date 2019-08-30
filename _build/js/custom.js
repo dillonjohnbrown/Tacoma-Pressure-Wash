@@ -4,12 +4,9 @@ var cities = [
   $("#Steilacoom"),
   $("#Fircrest"),
   $("#Lakewood"),
-  $("#Puyallup"),
   $("#Fife"),
   $("#Federal-Way"),
-  $("#University-Place"),
-  $("#Milton"),
-  $("#Ruston")
+  $("#Milton")
 ];
 var animationTime = 1500;
 
