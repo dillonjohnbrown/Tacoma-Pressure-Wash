@@ -18,121 +18,122 @@
 @import "animations.less";
 
 html {
-  font-family: 'Inter', sans-serif;
-  font-feature-settings: 'zero' 1, 'ss01' 1;
-  background-color: @off-white;
+	font-family: 'Inter', sans-serif;
+	font-feature-settings: 'zero' 1, 'ss01' 1;
+	background-color: @off-white;
 }
 @supports (font-variation-settings: normal) {
-  html {
-    font-family: 'Inter var', sans-serif;
-    font-feature-settings: 'zero' 1, 'ss01' 1;
-  }
+	html {
+		font-family: 'Inter var', sans-serif;
+		font-feature-settings: 'zero' 1, 'ss01' 1;
+	}
 }
 .x-light-black {
-  color: @x-light-black;
+	color: @x-light-black;
 }
 .intro {
-  padding: 7rem 0 0 0;
-  + .intro {
-    padding: 0 0 7rem 0;
-  }
+	padding: 7rem 0 0 0;
+	+ .intro {
+		padding: 0 0 7rem 0;
+	}
+
 }
 .dark-background {
-  background-color: @turquoise;
-  padding: 6rem 0 3rem 0;
+	background-color: @turquoise;
+	padding: 6rem 0 3rem 0;
 }
 .price-detail {
-  background-color: @white;
-  color: @black;
-  padding: 2rem;
-  margin-bottom: 3rem;
+	background-color: @white;
+	color: @black;
+	padding: 2rem;
+	margin-bottom: 3rem;
 }
 .price-label {
-  font-size: 1.75rem;
-  margin-bottom: 3rem;
-  position: relative;
-  max-width: 15rem;
-  &:after {
-    content: "";
-    background: @red;
-    position: absolute;
-    bottom: -1rem;
-    left: 0;
-    width: 15rem;
-    height: 2px;
-  }
+	font-size: 1.75rem;
+	margin-bottom: 3rem;
+	position: relative;
+	max-width: 15rem;
+	&:after {
+		content: "";
+		background: @red;
+		position: absolute;
+		bottom: -1rem;
+		left: 0;
+		width: 15rem;
+		height: 2px;
+	}
 }
 .price {
-  font-style: italic;
-  font-weight: 900;
-  font-size: 7rem;
-  text-align: center;
-  margin: 5rem 0;
+	font-style: italic;
+	font-weight: 900;
+	font-size: 7rem;
+	text-align: center;
+	margin: 5rem 0;
 }
 .price-note {
-  font-size: 1.25rem;
-  font-style: oblique;
+	font-size: 1.25rem;
+	font-style: oblique;
 }
 .wordmark-background {
-  background-color: @red;
+	background-color: @red;
 }
 .wordmark {
-  padding: 60px 0;
+	padding: 60px 0;
 }
 
 .jumbo {
-  font-size: 5rem;
-  font-weight: 900;
-  margin: 0;
-  line-height: 5rem;
+	font-size: 5rem;
+	font-weight: 900;
+	margin: 0;
+	line-height: 5rem;
 }
 .jumbo-label {
-  font-size: 2rem;
+	font-size: 2rem;
 }
 .jumbo,
 .jumbo-label {
-  text-align: right;
+	text-align: right;
 }
 
 .nav-links {
-  display: none;
+	display: none;
 }
 .logo-and-nav {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0 0 0;
-  svg {
-    width: 5rem;
-  }
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 0 0;
+	svg {
+		width: 5rem;
+	}
 }
 a {
-  color: @black;
-  border-bottom: 0.5px solid @red;
-  text-decoration: none;
-  transition: all 750ms;
-  &:hover {
-    color: @light-black;
-  }
+	color: @black;
+	border-bottom: 0.5px solid @red;
+	text-decoration: none;
+	transition: all 750ms;
+	&:hover {
+		color: @light-black;
+	}
 }
 .city-list {
-  list-style: none;
-  li {
-    opacity: 0;
-  }
+	list-style: none;
+	li {
+		opacity: 0;
+	}
 }
 .more-than-tacoma {
-  position: relative;
-  svg {
-    position: absolute;
-    z-index: -1;
-    margin: 25rem 0;
-    path {
-      opacity: 0;
-    }
-  }
+	position: relative;
+	svg {
+		position: absolute;
+		z-index: -1;
+		margin: 25rem 0;
+		path {
+			opacity: 0;
+		}
+	}
 }
 header {
-  background: @red;
+	background: @red;
 }
 
 .example {
@@ -148,6 +149,7 @@ header {
 				5px 5px 0 0 @off-white,
 				9px 9px 0 0 @red;
 		}
+
 	}
 }
 .shadow--light {
