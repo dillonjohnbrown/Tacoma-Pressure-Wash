@@ -134,3 +134,37 @@ a {
 header {
   background: @red;
 }
+
+.example {
+	margin-top: 5rem;
+	a {
+		border-bottom: none;
+	}
+	img {
+		margin-bottom: 2rem;
+		transition: box-shadow 750ms ease;
+		&:hover {
+			box-shadow:
+				5px 5px 0 0 @off-white,
+				9px 9px 0 0 @red;
+		}
+	}
+}
+.shadow--light {
+	box-shadow:
+		5px 5px 0 0 @turquoise,
+		9px 9px 0 0 @off-white;
+}
+.shadow--dark {
+	box-shadow:
+		5px 5px 0 0 @off-white,
+		9px 9px 0 0 @turquoise;
+}
+h5 {
+	margin-top: 2rem !important;
+}
+.example-text {
+	&:last-of-type {
+		margin-bottom: 10rem;
+	}
+}
