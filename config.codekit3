@@ -686,6 +686,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/mug.jpg": {
+		"ft": 16384,
+		"iS": 158393,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/mug.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/touch-icon.png": {
 		"ft": 32768,
 		"iS": 25876,

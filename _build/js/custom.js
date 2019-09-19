@@ -60,5 +60,6 @@ function wordmarkHack() {
     var headerHeight = $("header").outerHeight();
 
     $("#wordmarkBackground, #wordmarkBackground ~ div").css({top: -headerHeight});
+	$("#note").css({'margin-bottom': -headerHeight});
   }
 }

@@ -2,6 +2,7 @@
 @light-black:   fade( @black, 60% );
 @x-light-black: fade( @black, 25% );
 @red:           #fb431e;
+@light-red:		fade( @red, 25% );
 @turquoise:     #9bbdb8;
 @off-white:     #DAE5E3;
 @white:         #FFFFFF;
@@ -126,7 +127,7 @@ a {
 	svg {
 		position: absolute;
 		z-index: -1;
-		margin: 25rem 0;
+		margin: 15rem 0;
 		path {
 			opacity: 0;
 		}
@@ -169,4 +170,51 @@ h5 {
 	&:last-of-type {
 		margin-bottom: 10rem;
 	}
+}
+
+/*
+	PAPER
+*/
+.note {
+	margin-top: 10rem;
+	background: @off-white;
+}
+.paper {
+	transform: rotate(-3deg); 
+	font-family: "XXII DEVILS-RIGHT-HAND", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	width: 100%;
+	height: 80%;
+	padding: 6px 42px 40px 42px;
+	position: relative;
+	color: #444;
+	border: 1px solid fade(@turquoise, 50%);
+	background: @white;
+	background: linear-gradient(top, #d9eaf3 0%, #fff 8%) 0 4px;
+	background-size: 100% 26px;
+	border-radius: 3px;
+	box-shadow: 0 2px 20px fade(@turquoise, 20%);
+
+  	&:before {
+		content: '';
+		position: absolute;
+		width: 4px;
+		top: 0;
+		left: 30px;
+		bottom: 0;
+		border: 1px solid;
+		border-color: transparent @light-red;
+	}
+}
+.paper-photo {
+	float: right;
+	transform: rotate(5deg);
+	max-width: 260px;
+	border: 10px solid floralwhite;
+	position: relative;
+	box-shadow:
+		0 2px 10px fade(@turquoise, 20%),
+		0 2px 15px fade(@black, 20%);
+	border-radius: 3px;
 }
